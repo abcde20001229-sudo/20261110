@@ -17,10 +17,10 @@ const MAGIC_EFFECT_FRAME_COUNT = 5; // 設定魔法特效精靈圖的影格數�
 const FRAME_DURATION = 100; // 設定每張動畫影格顯示的毫秒數
 const WALK_SPEED = 4; // 設定角色每畫格移動的像素數
 function preload() { // 在畫布建立前載入角色精靈圖
-  stopSprite = loadImage("1/stop/stop.png"); // 載入角色1的停止動作精靈圖
-  walkSprite = loadImage("1/walk/walk.png"); // 載入角色1的走路動作精靈圖
-  magicSprite = loadImage("1/magic/magic.png"); // 載入角色1的施法動作精靈圖
-  magicEffectSprite = loadImage("1/magic_effect/magic_effect.png"); // 載入施法後發射的特效精靈圖
+  stopSprite = loadImage("stop/stop.png"); // 載入角色1的停止動作精靈圖
+  walkSprite = loadImage("walk/walk.png"); // 載入角色1的走路動作精靈圖
+  magicSprite = loadImage("magic/magic.png"); // 載入角色1的施法動作精靈圖
+  magicEffectSprite = loadImage("magic_effect/magic_effect.png"); // 載入施法後發射的特效精靈圖
 } // 結束精靈圖載入函式
 function setup() { // 設定全螢幕畫布與繪圖模式
   createCanvas(windowWidth, windowHeight); // 建立符合目前視窗尺寸的畫布
